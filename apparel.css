@@ -1,0 +1,147 @@
+body {
+    min-height: 100vh;
+  	background-image: url('https://images.unsplash.com/photo-1531945859692-5c3db72c8c99?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80');
+  	background-size: cover;
+}
+.navbar{
+	position: fixed;
+	height: 90px;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	background: rgba(173,216,230, 0.4);
+	font-weight: bold;
+}
+.navbar .logo{
+	width: 130px;
+	height: 80px;
+	padding: 5px 90px;
+
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 100px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: #5F9EA0;
+	border-radius: 3px;
+}
+.sub-menu{
+	display: none;
+}
+.navbar ul li:hover .sub-menu{
+	display: block;
+	position: absolute;
+	background: rgba(173,216,230, 0.4);
+	margin-left: -15px;
+	margin-top: 0px;
+	z-index: 100;
+}
+.search-txt{
+	width: 0px;
+	height: 40px;
+}
+.btn:hover > .search-txt{
+	width: 70%;
+	height: 50%;
+	transform: 1.5s;
+}
+.newarrival
+{
+	background: purple;
+	width: 50px;sS
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+}
+.newarrival1
+{
+	background: red;
+	width: 50px;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+}
+.newarrival2
+{
+	background: yellow;
+	width: 50px;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+}
+.newarrival3
+{
+	background: green;
+	width: 50px;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+}
+.col-md-7 h2
+{
+	color: #555;
+}
+.stars
+{
+	height: 15px;
+
+}
+.price
+{
+	color: #FE980F;
+	fon-size:25px;
+	font-weight: bold;
+	padding-top: 20px;
+}
+.input
+{
+	border: 1px solid #CCC;
+	font-weight:bold;
+	height: 33px;
+	text-align: center;
+	width: 30px;
+}
+.cart{
+	background: #FE980F;
+	color: #FFFFFF;
+	font-size: 15px;
+	margin-left: 20px;
+}
+.add-to-cart{
+	background: green;
+	color: white;
+	border-radius: 5px;
+}
+
+.col-md-7 .add-to-cart button: hover{
+	background:#013208
+}
+#img{
+  height: 410px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.row{
+  background-color: white;
+}
+.button{
+  background-color: #006633;
+  border-radius: 11%;
+  color: white;
+}

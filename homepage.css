@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	background: url(https://image.freepik.com/free-photo/close-up-colorful-t-shirts-hangers-apparel-background_51195-3841.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.navbar{
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(173,216,230, 0.4);
+}
+.navbar .logo{
+	width: 130px;
+	height: 80px;
+	padding: 5px 90px;
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: #5F9EA0;
+	border-radius: 2px;
+}
+.sub-menu{
+	display: none;
+}
+.navbar ul li:hover .sub-menu{
+	display: block;
+	position: absolute;
+	background: rgba(173,216,230, 0.4);
+	margin-left: -15px;
+}
+.search-txt{
+	width: 0px;
+}
+.btn:hover > .search-txt{
+	width: 70%;
+	transform: 1.5s;
+}
+.wrapper .center{
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+.center h1{
+	color: white;
+	font-family: 'Arial';
+	font-size: 95px;
+	width: 900px;
+	font-weight: bold;
+	text-align: center;
+}
+.center .buttons{
+	margin: 35px 280px;
+}
+.buttons button{
+	height: 50px;
+	width: 150px;
+	font-size: 18px;
+	font-weight: 600;
+	color: white;
+	background: red;
+	outline: none;
+	cursor: pointer;
+	border: 1px solid #cc0000;
+	border-radius: 25px;
+	transition: .4s;
+}
+.buttons .btn2{
+	margin-left: 25px;
+}
+.buttons button:hover{
+	background: #cc0000;
+}
